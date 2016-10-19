@@ -1,0 +1,6 @@
+version: '2'
+services:
+  couchbase:
+    image: couchbase
+    ports:
+    - "8091:8091"
